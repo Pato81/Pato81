@@ -44,6 +44,13 @@ not only from courses.
 
 > ⚠️ All offensive work happens **exclusively in my own isolated lab or with explicit written authorization.**
 
+### 🚀 Projects
+| Project | What it is | |
+|---|---|---|
+| **[nmap-powertool](https://github.com/Pato81/nmap-powertool)** | Interactive `nmap` recon & reporting framework — searchsploit correlation, scan diff, project structure | 📂 code |
+| **[wireshark-powertool](https://github.com/Pato81/wireshark-powertool)** | Menu-driven `tshark`/Wireshark capture & analysis toolkit with a focus on analysis and forensics | 📂 code |
+| **[offensive-security-toolkit](https://github.com/Pato81/offensive-security-toolkit)** | Showcase of my WLAN audit, web/login and full guided on-site pentest-workflow frameworks | 📖 showcase |
+
 ### 🧰 Toolbox
 `Kali Linux` · `Nmap` · `Metasploit` · `Bash` · `Linux & Windows Server` · `Networking` · `Hyper-V` · `CVSS` · `MITRE ATT&CK`
 

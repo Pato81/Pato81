@@ -41,6 +41,7 @@ not only from courses.
 - **Tooling** — a self-built, *guided* pentest-workflow tool that automates the pipeline from scoping
   to final report, including an AI-assisted second opinion on findings (raw technical data only —
   **no personal data** is ever transmitted)
+- **Blue team** — email-threat analysis and detection: homoglyph/phishing case studies, IOC extraction and YARA rules
 
 > ⚠️ All offensive work happens **exclusively in my own isolated lab or with explicit written authorization.**
 
@@ -50,9 +51,10 @@ not only from courses.
 | **[nmap-powertool](https://github.com/Pato81/nmap-powertool)** | Interactive `nmap` recon & reporting framework — searchsploit correlation, scan diff, project structure | 📂 code |
 | **[wireshark-powertool](https://github.com/Pato81/wireshark-powertool)** | Menu-driven `tshark`/Wireshark capture & analysis toolkit with a focus on analysis and forensics | 📂 code |
 | **[offensive-security-toolkit](https://github.com/Pato81/offensive-security-toolkit)** | Showcase of my WLAN audit, web/login and full guided on-site pentest-workflow frameworks | 📖 showcase |
+| **[phishing-analysis](https://github.com/Pato81/phishing-analysis)** | Blue-team case study of an IONOS homoglyph phishing campaign — lookalike/homoglyph analysis, IOCs, a YARA rule and full reports | 🔵 blue team |
 
 ### 🧰 Toolbox
-`Kali Linux` · `Nmap` · `Metasploit` · `Bash` · `Linux & Windows Server` · `Networking` · `Hyper-V` · `CVSS` · `MITRE ATT&CK`
+`Kali Linux` · `Nmap` · `Metasploit` · `Wireshark` · `Bash` · `Python` · `Linux & Windows Server` · `Networking` · `Alfa AWUS036ACHM` · `Hyper-V` · `CVSS` · `MITRE ATT&CK` · `YARA`
 
 ### 📈 Currently learning
 Working toward **OffSec OSCP (PEN-200)** as my next milestone.

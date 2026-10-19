@@ -52,6 +52,7 @@ not only from courses.
 | **[wireshark-powertool](https://github.com/Pato81/wireshark-powertool)** | Menu-driven `tshark`/Wireshark capture & analysis toolkit with a focus on analysis and forensics | 📂 code |
 | **[offensive-security-toolkit](https://github.com/Pato81/offensive-security-toolkit)** | Showcase of my WLAN audit, web/login and full guided on-site pentest-workflow frameworks | 📖 showcase |
 | **[phishing-analysis](https://github.com/Pato81/phishing-analysis)** | Blue-team case study of an IONOS homoglyph phishing campaign — lookalike/homoglyph analysis, IOCs, a YARA rule and full reports | 🔵 blue team |
+| **[phishscan-pato](https://github.com/Pato81/phishscan-pato)** | PhishScan — passive Python CLI that scores suspicious `.eml` mails against 11 heuristics (H1–H11) and prints a report | 🐍 tool |
 
 ### 🧰 Toolbox
 `Kali Linux` · `Nmap` · `Metasploit` · `Wireshark` · `Bash` · `Python` · `Linux & Windows Server` · `Networking` · `Alfa AWUS036ACHM` · `Hyper-V` · `CVSS` · `MITRE ATT&CK` · `YARA`

@@ -35,12 +35,12 @@ not only from courses.
 | **CompTIA Network+** | N10-009 |
 
 ### 🧠 What I work on
-- **Methodology** — reconnaissance → enumeration → exploitation → post-exploitation
+- **Methodology** — reconnaissance → enumeration → exploitation → post-exploitation, aligned with PTES, OWASP and OSSTMM
+- **Full engagement scope** — from the external internet perimeter (OSINT, attack-surface mapping, web-app testing) to the internal network and Active Directory (enumeration, lateral movement, privilege-escalation paths)
 - **Findings & reporting** — CVSS scoring, MITRE ATT&CK mapping, clear and reproducible documentation
 - **Home lab** — Kali Linux workstation and an isolated C2 infrastructure for authorized red-team practice
-- **Tooling** — a self-built, *guided* pentest-workflow tool that automates the pipeline from scoping
-  to final report, including an AI-assisted second opinion on findings (raw technical data only —
-  **no personal data** is ever transmitted)
+- **Tooling** — two self-built, *guided* pentest-workflow frameworks covering the full engagement from scoping to final report: a **62-step on-site / internal** workflow (WLAN → internal network → Active Directory) and a **72-step external / offsite** workflow (OSINT → attack surface → web app). Both provide CVSS-based reporting with multi-format export (Word/HTML/PDF) and an optional AI-assisted second opinion on findings — raw technical data only, with personal/sensitive data automatically redacted before transmission. Complemented by two network powertools for active recon (`nmap`) and passive traffic analysis (`tshark`/Wireshark)
+- **Engineering** — safe-by-design Bash (strict input validation, least-privilege, no auto-exploit, per-step authorization, controlled cleanup)
 - **Blue team** — email-threat analysis and detection: homoglyph/phishing case studies, IOC extraction and YARA rules
 
 > ⚠️ All offensive work happens **exclusively in my own isolated lab or with explicit written authorization.**
@@ -50,13 +50,13 @@ not only from courses.
 |---|---|---|
 | **[nmap-powertool](https://github.com/Pato81/nmap-powertool)** | Interactive `nmap` recon & reporting framework — searchsploit correlation, scan diff, project structure | 📂 code |
 | **[wireshark-powertool](https://github.com/Pato81/wireshark-powertool)** | Menu-driven `tshark`/Wireshark capture & analysis toolkit with a focus on analysis and forensics | 📂 code |
-| **[offensive-security-toolkit](https://github.com/Pato81/offensive-security-toolkit)** | Showcase of my WLAN audit, web/login and full guided on-site pentest-workflow frameworks | 📖 showcase |
+| **[offensive-security-toolkit](https://github.com/Pato81/offensive-security-toolkit)** | Showcase of my two guided penetration-testing frameworks — a **62-step on-site/internal** and a **72-step external/offsite** engagement workflow (scoping → testing → CVSS report, multi-format export) | 📖 showcase |
 | **[phishing-analysis](https://github.com/Pato81/phishing-analysis)** | Blue-team case study of an IONOS homoglyph phishing campaign — lookalike/homoglyph analysis, IOCs, a YARA rule and full reports | 🔵 blue team |
 | **[phishscan-pato](https://github.com/Pato81/phishscan-pato)** | PhishScan — passive Python CLI that scores suspicious `.eml` mails against 11 heuristics (H1–H11) and prints a report | 🐍 tool |
 | **[windows11-pentest-lab](https://github.com/Pato81/windows11-pentest-lab)** | Gehärtetes Win11-Lab auf KVM/libvirt mit EDR-Telemetrie und C2-Detection-Test | 🔴 red team |
 
 ### 🧰 Toolbox
-`Kali Linux` · `Nmap` · `Metasploit` · `Wireshark` · `Bash` · `Python` · `Linux & Windows Server` · `Networking` · `Alfa AWUS036ACHM` · `Hyper-V` · `CVSS` · `MITRE ATT&CK` · `YARA`
+`Kali Linux` · `Nmap` · `Metasploit` · `Wireshark` · `Bash` · `Python` · `Active Directory` · `BloodHound` · `Impacket` · `nuclei` · `Linux & Windows Server` · `Networking` · `OSINT` · `Alfa AWUS036ACHM` · `Hyper-V` · `CVSS` · `MITRE ATT&CK` · `OWASP` · `YARA`
 
 ### 📈 Currently learning
 Working toward **OffSec OSCP (PEN-200)** as my next milestone.

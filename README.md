@@ -50,8 +50,7 @@ not only from courses.
 |---|---|---|
 | **[network-recon-suite](https://github.com/Pato81/network-recon-suite)** | Interactive `nmap` recon & reporting framework — searchsploit correlation, scan diff, project structure | 📂 code |
 | **[guided-pentest-frameworks](https://github.com/Pato81/guided-pentest-frameworks)** | Showcase of my two guided penetration-testing frameworks — a **62-step on-site/internal** and a **72-step external/offsite** engagement workflow (scoping → testing → CVSS report, multi-format export) | 📖 showcase |
-| **[phishing-analysis](https://github.com/Pato81/phishing-analysis)** | Blue-team case study of an IONOS homoglyph phishing campaign — lookalike/homoglyph analysis, IOCs, a YARA rule and full reports | 🔵 blue team |
-| **[phishscan-pato](https://github.com/Pato81/phishscan-pato)** | PhishScan — passive Python CLI that scores suspicious `.eml` mails against 11 heuristics (H1–H11) and prints a report | 🐍 tool |
+| **[phishing-analysis-suite](https://github.com/Pato81/phishing-analysis-suite)** | Blue-team e-mail threat analysis — forensic case study of a real IONOS homoglyph phishing campaign (IOCs, YARA, MITRE ATT&CK) **plus PhishScan**, a passive Python `.eml` analyzer (11 heuristics) derived from the case | 🔵 blue team |
 | **[windows11-pentest-lab](https://github.com/Pato81/windows11-pentest-lab)** | Gehärtetes Win11-Lab auf KVM/libvirt mit EDR-Telemetrie und C2-Detection-Test | 🔴 red team |
 
 ### 🧰 Toolbox
